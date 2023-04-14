@@ -59,6 +59,10 @@ const addData = (data) =>{
         let td6=document.createElement("td");
         td6.innerText=el.leadStage;
         td6.style.color="green";
+        let td7=document.createElement("td");
+        td7.innerText=el;
+        
+
         
         tr.append(td,td2,td3,td4,td5,td6);
         tbody.append(tr);
